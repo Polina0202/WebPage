@@ -9,110 +9,12 @@
     <%#= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%#= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%#= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <%= stylesheet_link_tag "application" %>
 
     <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
 
     <style>
-    .nav-container{
-      margin-bottom: 6em;
-    }
-
-    .form-control{
-      border: none;
-      border-radius: 0px;
-      border-bottom: 1px solid #757575;
-    }
-
-    .title-content{
-      font-size: 22px;
-      margin-top: 2em;
-    }
-    .container-items{
-      height: 100%;
-      width: 33%;
-      display: flex;
-      flex-flow: column;
-    }
-
-    .container-items img{
-      background: #ff004c;
-      height: 80%;
-      width: 100%;
-      margin-bottom: 1em;
-      object-fit: cover;
-    }
-
-    .content-flex{
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      align-items: center;
-    }
-
-    .container-items{
-      margin: 1em 0px;
-      cursor: pointer;
-      transition: all .5s;
-    }
-
-    .container-items p{
-      margin-left: 5px;
-    }
-
-    .container-items :nth-child(3){
-      color: #626262;
-    }
-
-    .container-items:hover{
-      box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.2);
-      -moz-transform: scale(1.02);
-       zoom: 1.02;
-    }
-
-    .footer{
-      font-family: 'Roboto', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      background: #262626;
-      margin-top: 6em;
-    }
-
-    .footer-block-info, .footer-block-link, .footer-block-ruls{
-      color: white;
-      border-top: 1px solid rgba(255, 255, 255, .4);
-      padding: 2em 0px;
-    }
-
-    .footer-block-info select{
-      background: #3B3B3B;
-      font-size: 13px;
-      color: white;
-      padding: 11px 15px 11px 5px;
-      border: 2px solid #3B3B3B;
-      border-radius: 0px 3px 3px 0px;
-    }
-
-    .select-icon{
-      background: #3B3B3B;
-      padding: 11px 15px 11px 5px;
-      border: 2px solid #3B3B3B;
-      border-radius: 3px 0px 0px 3px;
-      cursor: auto;
-    }
-
-    .footer-block-brand{
-      padding: 2em 0px;
-    }
-
-    .footer-block-link{
-      display: flex;
-      justify-content:center;
-    }
-
-    .fixed-bottom{
-      justify-content: flex-end;
-    }
-
     .btn-success{
       border-radius: 2px;
       border: 2px solid #59BD5A;
@@ -121,51 +23,12 @@
       margin: 0px 16px 24px 0px;
     }
 
-    img{
-      cursor: pointer;
+    .fixed-bottom{
+      justify-content: flex-end;
     }
-
-    @media screen and (max-width: 1199.98px){
-      }
-
-    @media screen and (max-width: 991.98px){
-        .container{
-          margin: 0px;
-        }
-
-        .container-items{
-          width: 48%;
-        }
-      }
-
-    @media screen and (max-width: 767.98px){
-        .container{
-          margin: 0px;
-        }
-
-        .container-items{
-          width: 100%;
-        }
-      }
-
-    @media screen and (max-width: 575.98px){
-        .container{
-          margin: 0px;
-        }
-
-        .container-items{
-          width: 100%;
-        }
-
-        .navbar-basket{
-          display: none;
-        }
-      }
-
-
     </style>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
   <body>

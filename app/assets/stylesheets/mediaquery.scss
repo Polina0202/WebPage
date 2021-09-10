@@ -1,0 +1,36 @@
+@media screen and (max-width: 1199.98px){
+}
+
+@media screen and (max-width: 991.98px){
+  .container{
+    margin: 0px;
+  }
+
+  .container-items{
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 767.98px){
+  .container{
+    margin: 0px;
+  }
+
+  .container-items{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 575.98px){
+  .container{
+    margin: 0px;
+  }
+
+  .container-items{
+    width: 100%;
+  }
+
+  .navbar-basket{
+    display: none;
+  }
+}
