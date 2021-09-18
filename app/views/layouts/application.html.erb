@@ -14,25 +14,11 @@
     <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
 
-    <style>
-    .btn-success{
-      border-radius: 2px;
-      border: 2px solid #59BD5A;
-      padding: 25px 30px;
-      background: #59BD5A;
-      margin: 0px 16px 24px 0px;
-    }
-
-    .fixed-bottom{
-      justify-content: flex-end;
-    }
-    </style>
-
   <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
   <body>
-    <div>
+    <div class="page">
       <%= yield %>
     </div>
   </body>
