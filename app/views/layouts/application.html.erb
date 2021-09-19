@@ -14,16 +14,11 @@
     <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
 
-    <style>
-    html, body, .container-fluid{
-    padding: 0;
-    }
-    </style>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
   <body>
-    <div class="container-fluid">
+    <div class="page">
       <%= yield %>
     </div>
   </body>

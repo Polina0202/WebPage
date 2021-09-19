@@ -17,7 +17,7 @@
 <div class="nav-container navbar">
 </div>
 
-<div class="wrapper ">
+<div class="wrapper">
   <div class="content container">
     <div class="search">
       <input type="text" class="form-control" placeholder="Поиск по ресторанам и кухням">
@@ -27,55 +27,55 @@
     </div>
     <div class="content-flex">
       <div class="container-items">
-        <img src="/assets/content-img/1.svg" alt="Content">
+        <img src= <%= image_path('content-img/1.svg') %> >
         <p>Макдоналдс — Газетный</p>
         <p>₽₽ • Бургеры</p>
         <p>25 - 35 мин</p>
       </div>
       <div class="container-items">
-        <img src="/assets/content-img/2.svg" alt="Content">
+        <img src= <%= image_path('content-img/2.svg') %> >
         <p>DimSum & Co — ЦДМ</p>
         <p>₽ • Японская • Китайская • Азиатская</p>
         <p>40 - 50 мин</p>
       </div>
       <div class="container-items">
-        <img src="/assets/content-img/95b745f6ce6a45903c3ed254afd72e46-w550-27.svg" alt="Content">
+        <img src= <%= image_path('content-img/95b745f6ce6a45903c3ed254afd72e46-w550-27.svg') %> >
         <p>ДвижОК — Манежная</p>
         <p>₽ • Американская • Европейская</p>
         <p>35 - 45 мин</p>
       </div>
       <div class="container-items">
-        <img src="/assets/content-img/95b745f6ce6a45903c3ed254afd72e46-w550-27-2.svg" alt="Content">
+        <img src= <%= image_path('content-img/95b745f6ce6a45903c3ed254afd72e46-w550-27-2.svg') %> >
         <p>НЯ — NHA</p>
         <p>₽₽ • Вьетнамская</p>
         <p>30 - 40 мин</p>
       </div>
       <div class="container-items">
-        <img src="/assets/content-img/95b745f6ce6a45903c3ed254afd72e46-w550-27-3.svg" alt="Content">
+        <img src= <%= image_path('content-img/95b745f6ce6a45903c3ed254afd72e46-w550-27-3.svg') %> >
         <p>Точка Дзы — Цветной</p>
         <p>₽₽ • Вьетнамская</p>
         <p>40 - 50 мин</p>
       </div>
       <div class="container-items">
-        <img src="/assets/content-img/95b745f6ce6a45903c3ed254afd72e46-w550-27-4.svg" alt="Content">
+        <img src= <%= image_path('content-img/95b745f6ce6a45903c3ed254afd72e46-w550-27-4.svg') %> >
         <p>Cinnabon</p>
         <p>₽ • Выпечка • Десерты • Капкейки</p>
         <p>25 - 35 мин</p>
       </div>
       <div class="container-items">
-        <img src="/assets/content-img/95b745f6ce6a45903c3ed254afd72e46-w550-27-6.svg" alt="Content">
+        <img src= <%= image_path('content-img/95b745f6ce6a45903c3ed254afd72e46-w550-27-6.svg') %> >
         <p>PIZZELOVE</p>
         <p>₽₽ • Пицца</p>
         <p>15 - 25 мин</p>
       </div>
       <div class="container-items">
-        <img src="/assets/content-img/95b745f6ce6a45903c3ed254afd72e46-w550-27-7.svg" alt="Content">
+        <img src= <%= image_path('content-img/95b745f6ce6a45903c3ed254afd72e46-w550-27-7.svg') %> >
         <p>Zю кафе — Тверская</p>
         <p>₽₽ • Японская</p>
         <p>25 - 35 мин</p>
       </div>
       <div class="container-items">
-        <img src="/assets/content-img/95b745f6ce6a45903c3ed254afd72e46-w550-27-8.svg" alt="Content">
+        <img src= <%= image_path('content-img/95b745f6ce6a45903c3ed254afd72e46-w550-27-8.svg') %> >
         <p>Bar BQ Cafe — Манежная</p>
         <p>₽₽₽ • Европейская</p>
         <p>30 - 40 мин</p>
@@ -87,7 +87,7 @@
     <div class="container">
       <div class="footer-block-brand">
         <a href="#">
-          <img src="/assets/logo/white-logo.svg" alt="Logo">
+          <img src= <%= image_path('logo/white-logo.svg') %> >
         </a>
       </div>
 
@@ -101,9 +101,11 @@
               </select></p>
             </div>
             <p><span style="color: #49A144;">#</span><span style="font-weight: 500;">UberEats</span></p>
-            <p><img src="/assets/icon/facebook.svg" alt="Icon">
-            <img src="/assets/icon/twitter.svg" alt="Icon" style="margin:  0 7px;">
-            <img src="/assets/icon/instagram.svg" alt="Icon"></p>
+            <p>
+              <img src= <%= image_path('icon/facebook.svg') %> >
+              <img src= <%= image_path('icon/twitter.svg') %> >
+              <img src= <%= image_path('icon/instagram.svg') %> >
+            </p>
           </div>
           <div class="col-md-4">
             <p>Об UberEats</p>
@@ -120,9 +122,9 @@
     </div>
 
     <div class="footer-block-link">
-      <img src="/assets/logo/app_store.svg" alt="Logo">
+      <img src= <%= image_path('logo/app_store.svg') %> >
       <div style="width: 40px;"></div>
-      <img src="/assets/logo/google_play.svg" alt="Logo">
+      <img src= <%= image_path('logo/google_play.svg') %> >
     </div>
 
     <div class="footer-block-ruls">
@@ -143,5 +145,5 @@
 </div>
 
 <div class="navbar fixed-bottom">
-  <a href="#" class="hidden-xs btn btn-success"><img src="/assets/arrow.svg" alt="Logo"></a>
+  <a href="#" class="hidden-xs btn btn-success"><img src= <%= image_path('arrow.svg') %> ></a>
 </div>
