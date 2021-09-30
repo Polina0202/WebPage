@@ -1,0 +1,165 @@
+:root{
+  --main-color: #4840BB;
+  --minor-color: #230B59;
+  --black-color: #12062e;
+}
+
+*{
+  font-family: 'Roboto', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.navbar-items{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navbar-links{
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-links a{
+  color: var(--minor-color);
+  text-decoration: none;
+  margin: 0 15%;
+}
+
+.navbar-links a:hover{
+  color: var(--main-color);
+}
+
+.navbar-button{
+  display: flex;
+  justify-content: space-between;
+  width: 22%;
+}
+
+.content-items-block{
+  height: 100%;
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+.content-center-block{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.text-54, .text-22{
+  margin-bottom: 1em;
+}
+
+.text-57{
+  font-size: 57px;
+  color: var(--minor-color);
+}
+
+.text-54{
+  font-size: 54px;
+  color: var(--minor-color);
+  line-height: 1;
+}
+
+.text-22{
+  font-size: 22px;
+  color: var(--minor-color);
+}
+
+.frame-block{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.button-border, .button-background{
+  font-size: 22px;
+  font-weight: 700;
+  padding: 12px 20px;
+  border: 1px solid var(--main-color);
+  border-radius: 6px;
+  transition: background .3s;
+}
+
+.button-border{
+  background: white;
+  color: var(--main-color);
+}
+
+.button-border:hover{
+  background: var(--main-color);
+  color: white;
+}
+
+.button-border:active{
+  background: var(--minor-color);
+}
+
+.button-background{
+  background: var(--main-color);
+  color: white;
+}
+
+.button-background:hover{
+  background: var(--minor-color);
+}
+
+.button-background:active{
+  background: var(--black-color);
+  border-color: var(--black-color);
+}
+
+.margin-left{
+  margin-left: 7%;
+}
+
+.text-56{
+  font-size: 56px;
+  color: var(--minor-color);
+  line-height: 1;
+  letter-spacing: 3.5px;
+  padding-right: 1em;
+}
+
+.text-17{
+  font-size: 17px;
+  color: var(--minor-color);
+  line-height: 1.2;
+  padding-right: 3em;
+}
+
+.text-49{
+  margin: 15px;
+  font-size: 49px;
+  color: var(--minor-color);
+  // line-height: 1.2;
+  // padding-right: 3em;
+}
+
+.text-15{
+  font-size: 15px;
+  color: var(--minor-color);
+  // line-height: 1.2;
+  // padding-right: 3em;
+}
+
+.wrapper-button{
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.button-links{
+  text-decoration: none;
+  color: var(--minor-color);
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 12px;
+}
+
+.button-links:hover{
+  color: var(--main-color);
+}
