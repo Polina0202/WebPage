@@ -2,15 +2,16 @@
 }
 
 @media screen and (max-width: 991.98px){
-
-}
-
-@media screen and (max-width: 767.98px){
-  .navbar-items{
-    flex-direction: column;
-    justify-content: flex-start;
+  .hide-link{
+    display: none;
   }
 }
 
+@media screen and (max-width: 767.98px){
+}
+
 @media screen and (max-width: 575.98px){
+  .hide-btn{
+    display: none;
+  }
 }

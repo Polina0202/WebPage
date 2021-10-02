@@ -1,30 +1,47 @@
-<div class="container-fluid">
-  <div class="navbar fixed-top bg-white">
-    <div class="container navbar-items">
-      <a class="navbar-brand">
-        <img src= <%= image_path('logo/logo-wf.svg') %> >
-      </a>
-      <div class="navbar-links">
-        <a href="#">Invest</a>
-        <a href="#">Cash</a>
-        <a href="#">Borrow</a>
-        <a href="#">Blog</a>
-      </div>
-      <div class="navbar-button">
+<div class="container-fluid fixed-top bg-white">
+  <div class="container navbar">
+    <nav class="nav display-none-logo">
+      <img src= <%= image_path('logo/logo-wf.svg') %> >
+    </nav>
+
+    <nav class="nav display-block">
+      <img src= <%= image_path('logo/logo-mini.svg') %> >
+    </nav>
+
+    <ul class="nav justify-content-center display-none">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Invest</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Cash</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Borrow</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#">Blog</a>
+      </li>
+    </ul>
+
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
         <button class="button-border">Log in</button>
+      </li>
+      <li class="nav-item">
         <button class="button-background">Get started</button>
-      </div>
-    </div>
+      </li>
+    </ul>
   </div>
 </div>
 
-<div class="nav-container navbar">
+
+<div class="nav-container">
 </div>
 
-<div class="container">
-  <div class="content-items-block">
+<div class="container-fluid">
+  <div class="container content-items-block">
     <div class="row">
-      <div class="col-md-7">
+      <div class="col-md-7 img-block-cover">
         <img src= <%= image_path('content-img/Rectangle-1.svg') %> >
       </div>
       <div class="col-md-5 content-center-block">
@@ -38,17 +55,17 @@
       </div>
     </div>
   </div>
-  <div class="content-items-block">
-    <div class="frame-block">
-      <img src= <%= image_path('frame/Frame-2.svg') %> >
-      <img src= <%= image_path('frame/Frame-3.svg') %> >
-      <img src= <%= image_path('frame/Frame.svg') %> >
-      <img src= <%= image_path('frame/Frame(2).svg') %> >
-      <img src= <%= image_path('frame/Frame-1.svg') %> >
-      <img src= <%= image_path('frame/Frame4.svg') %> >
-    </div>
+
+  <div class="container content-items-block">
+    <img src= <%= image_path('frame/Frame-2.svg') %> >
+    <img src= <%= image_path('frame/Frame-3.svg') %> >
+    <img src= <%= image_path('frame/Frame.svg') %> >
+    <img src= <%= image_path('frame/Frame(2).svg') %> >
+    <img src= <%= image_path('frame/Frame-1.svg') %> >
+    <img src= <%= image_path('frame/Frame4.svg') %> >
   </div>
-  <div class="content-items-block">
+
+  <div class="container content-items-block">
     <div class="row">
       <div class="col-md-4 content-center-block margin-left">
         <div class="text-56">
@@ -64,14 +81,15 @@
           <a href="#" class="button-links">Learn more</a>
         </div>
       </div>
-      <div class="col-md-7">
+      <div class="col-md-7 img-block">
         <img src= <%= image_path('content-img/phone.svg') %> >
       </div>
     </div>
   </div>
-  <div class="content-items-block">
+
+  <div class="container content-items-block">
     <div class="row">
-      <div class="col-md-7">
+      <div class="col-md-7 img-block">
         <img src= <%= image_path('content-img/phone-card.svg') %> >
       </div>
       <div class="col-md-5">
@@ -92,7 +110,81 @@
     </div>
   </div>
 
+  <div class="content-items-block content-block-background">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="text-padding">
+          <div class="text-56">
+            Saving and investing. All while you’re relaxing.
+          </div>
+
+          <div class="text-16">
+            Tell us what you’re saving for, and we’ll automatically
+            set aside extra cash to hit your goals. And since we
+            connect with all your accounts, you only need one app to
+            watch your wealth grow.
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 img-block">
+        <img src= <%= image_path('content-img/graphic.svg') %> >
+      </div>
+    </div>
+  </div>
+
+  <div class="content-items-block content-block-background-80">
+    <div class="block-flex">
+      <div class="block-card col-md-3">
+        <div class="text-12">
+          Testimonial
+        </div>
+
+        <div class="text-34">
+          It's the single best resource for both investing,
+          managing retirement and seeing my entire financial picture.
+        </div>
+
+        <div class="text-15">
+          Joshua B
+        </div>
+      </div>
+
+      <div class="block-card col-md-3">
+        <div class="text-12">
+          Testimonial
+        </div>
+
+        <div class="text-34">
+          Wealthfront is the first thing in my life
+          that actually motivated me to save money.
+        </div>
+
+        <div class="text-15">
+          Isidore
+        </div>
+      </div>
+
+      <div class="block-card col-md-3">
+        <div class="text-12">
+          Testimonial
+        </div>
+
+        <div class="text-34">
+          It’s automatic, and I’m lazy.
+        </div>
+
+        <div class="text-15">
+          Ryan
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="content-items-block">
-    4
+    6
+  </div>
+  <div class="content-items-block">
+    7
   </div>
 </div>
