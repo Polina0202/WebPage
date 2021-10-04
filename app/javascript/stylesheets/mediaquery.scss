@@ -2,16 +2,45 @@
 }
 
 @media screen and (max-width: 991.98px){
-  .hide-link{
-    display: none;
+  .block-flex{
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
 @media screen and (max-width: 767.98px){
+  .block-flex{
+    flex-direction: column;
+    padding: 5%;
+  }
+
+  .block-card{
+    width: 100%;
+  }
+
+  .content-block-background-80{
+    background-size: 100% 100%;
+  }
+
+  .text-padding{
+    padding-left: 0;
+  }
+
+  .display-none{
+    display: none;
+  }
+
+  .block-card:nth-child(2){
+    margin: 1em 0;
+  }
 }
 
 @media screen and (max-width: 575.98px){
-  .hide-btn{
+  .display-none-logo{
     display: none;
+  }
+
+  .display-block{
+    display: block;
   }
 }
