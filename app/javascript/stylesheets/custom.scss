@@ -301,7 +301,7 @@ body {
 	flex: 0 0 auto;
   background: #18172B;
   color: white;
-  padding: 5em;
+  padding: 5em 5em 2em 5em;
 }
 
 .flex-footer{
@@ -310,7 +310,7 @@ body {
 }
 
 .block-border{
-  border-bottom: 1px solid white;
+  border-top: 1px solid white;
 }
 
 .text-10{
@@ -333,4 +333,5 @@ body {
 
 .footer-block p{
   margin: 1em 0;
+  text-align: justify;
 }
